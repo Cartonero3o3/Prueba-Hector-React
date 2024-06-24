@@ -13,7 +13,7 @@ function App() {
       .then(response => response.json())
       .then(data => {
         setContenedorMaestro(data);
-        setProducts(data.slice(0, count));
+
       })
       .catch(error => {
         console.error('Error fetching products:', error);
