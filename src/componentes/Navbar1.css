@@ -1,0 +1,33 @@
+.navbar {
+    width: 100%;
+    background-color: #333;
+ }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+.BotonMalo {
+  background-color: blue;
+  padding: 6px 6px;
+  margin: 10px;
+}
+
+.BotonBueno{
+  background-color: red;
+  padding: 6px 6px;
+  margin: 10px;
+}
+
+.spameadorNumericooNashee{
+  margin: 1%;
+ font-size: xx-large;
+}
