@@ -13,7 +13,6 @@ function App() {
       .then(response => response.json())
       .then(data => {
         setContenedorMaestro(data);
-
       })
       .catch(error => {
         console.error('Error fetching products:', error);
@@ -58,3 +57,5 @@ function App() {
 }
 
 export default App;
+//profe, usted no sabe cuantas horas estuve para memorisarme toda lo que es la coneccion con 
+//fake story api :3
