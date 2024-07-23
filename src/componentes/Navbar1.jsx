@@ -9,17 +9,6 @@ function Navbar1({ decremento, aumento, count }) {
           <div className="navbar-logo">
             <a href="/">Logo</a>
           </div>
-          <ul className="navbar-menu">
-            <li className="navbar-item">
-            <button className='BotonMalo' type="button" onClick={decremento}>-</button>
-            </li>
-            <li className="navbar-item">
-            <span className='spameadorNumericooNashee'>{count}</span>
-            </li>
-            <li className="navbar-item">
-            <button className='BotonBueno' type="button" onClick={aumento}>+</button>
-            </li>
-          </ul>
           <div className='ButtonsMasters'>
           </div>
           <ul className='navbar-menu'>
