@@ -1,6 +1,17 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr [col-start]);
-  grid-template-rows: auto;
-  row-gap: 10px 10px;
+.bodyComplet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content:center;
 }
+
+.theBox {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+

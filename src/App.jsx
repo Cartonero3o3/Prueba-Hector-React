@@ -1,17 +1,16 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect, useId  } from 'react';
 import './App.css';
-import Card1 from "./componentes/Card1";
-import Footer1 from './componentes/Footer1';
-import Navbar1 from './componentes/Navbar1';
+import Table from "./componentes/Table"
+import axios from 'axios';
 
 function App() {
+  const [nro, setNro] = useState(0);
+  
   return (
-    <>
-      <Navbar1 />
-      
-      <Footer1/>
-    </>
-  )
+    <div>
+      <Table />
+    </div>
+  );
 }
 
 export default App;
